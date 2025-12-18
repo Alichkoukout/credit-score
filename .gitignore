@@ -1,0 +1,128 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Java/Maven (backend)
+backend/target/
+backend/.idea/
+backend/.classpath
+backend/.project
+
+# Flutter (frontend)
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins-dependencies
+frontend/.metadata
+frontend/.idea/
+
+# Android/Gradle (generated)
+frontend/android/.gradle/
+frontend/android/local.properties
+
+# iOS/macOS (generated)
+frontend/ios/Pods/
+frontend/macos/Pods/
+
+# Web (generated)
+frontend/web/.dart_tool/
+
+# Python (python-ai)
+python-ai/venv/
+python-ai/__pycache__/
+python-ai/.pytest_cache/
+
+# Models (optional: ignore large/binary model files)
+python-ai/model/*.bin
+python-ai/model/*.pkl
+python-ai/model/*.h5
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+target/
+.mvn/
+mvnw
+mvnw.cmd
+
+# Spring Boot
+application-local.properties
+application-dev.properties
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+.idea/
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database
+*.sql.bak
+*.db
+*.sqlite
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Node (si utilisé)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
